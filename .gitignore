@@ -1,6 +1,7 @@
 venv
 *.pyc
 staticfiles
-.env
+.envgit
 db.sqlite3
 getting-started/*
+.idea/
