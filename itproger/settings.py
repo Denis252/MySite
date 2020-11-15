@@ -30,6 +30,16 @@ ALLOWED_HOSTS = [
     'obscure-sea-29107.herokuapp.com'
 ]
 
+DATABASES = {
+    'default': {
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': 'de1kpfbac12j57',
+    'HOST' : 'ec2-23-20-168-40.compute-1.amazonaws.com',
+    'PORT' : 5432,
+    'USER' : 'qrwecbcdfvymts',
+    'PASSWORD' : 'cbfe4a79be0d2c79dac44910f0ba1472061ba82c29aaadfd3eacb14828f9eb13'
+    }
+}
 
 # Application definition
 
@@ -81,12 +91,12 @@ WSGI_APPLICATION = 'itproger.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 # Password validation
