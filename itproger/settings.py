@@ -27,17 +27,17 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
-    'obscure-sea-29107.herokuapp.com'
+    'pure-lowlands-87743.herokuapp.com'
 ]
 
 DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'de1kpfbac12j57',
-    'HOST' : 'ec2-23-20-168-40.compute-1.amazonaws.com',
+    'NAME': 'd42fgnt9bn21af',
+    'HOST' : 'ec2-3-211-176-230.compute-1.amazonaws.com',
     'PORT' : 5432,
-    'USER' : 'qrwecbcdfvymts',
-    'PASSWORD' : 'cbfe4a79be0d2c79dac44910f0ba1472061ba82c29aaadfd3eacb14828f9eb13'
+    'USER' : 'mjlrpdcylbpqfv',
+    'PASSWORD' : '99199cbeb8aebe736051b10ffc7fd4601a61aa8c9b46c5b4ace9950adef4f731'
     }
 }
 
